@@ -19,10 +19,10 @@ public class App {
 
 					})
 				.thenAccept((i)-> {
-						System.out.println("LAST");
+						System.out.println("LAST ");
 					}
 				);
-		System.out.println("FIRST");
+		System.out.println("FIRST ");
 		//Without a sleep the app is over
 		TimeUnit.SECONDS.sleep(3);
 
